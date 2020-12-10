@@ -66,6 +66,7 @@ $(function() {
                 start.text('Try again?');
                 $('body').removeClass('playing').addClass('game-over');
                 gameSequence = new Array();	
+                level = 1;
                 $('#gameover').html(stopGame);
             }
         }
