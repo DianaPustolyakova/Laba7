@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', arial;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 219, 253);
+}
+main {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+.instrument {
+    display: block;
+    margin-top: 25px;
+    width: 100px;
+    height: 80px;
+    border: 0;
+    border-radius: 15%;
+}
+#arfa {
+    background-image: url(images/arfa.jpg);
+}
+#electroguitar {
+    background-image: url(images/electroguitar.jpg);
+}
+#gusli {
+    background-image: url(images/gusli.png);
+}
+#ukulele {
+    background-image: url(images/ukulele.jpg);
+}
+#volynka {
+    background-image: url(images/volynka.jpg);
+}
